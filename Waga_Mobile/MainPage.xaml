@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Waga_Mobile.MainPage">
+
+    <Grid Padding="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+
+        <Label Text="Pomiar wagi" FontSize="Title" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+
+        <Label Text="Waga: " Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" FontSize="Subtitle" />
+        <Label Text="{Binding wagaString}" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" FontSize="Subtitle" />
+        
+        <Label Text="Jednostka: " Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" FontSize="Subtitle"/>
+        <Label Text="{Binding jednostka}" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" FontSize="Subtitle" />
+        
+        <Button Text="Pobierz Wagę" FontSize="18" Command="{Binding GetWage}" Grid.Row="6" Grid.ColumnSpan="2" />
+
+
+        <ActivityIndicator x:Name="activityIndicator" 
+                           HeightRequest="70" WidthRequest="70"
+                           Grid.RowSpan="5" Grid.ColumnSpan="2"
+                           IsRunning="{Binding IsBusy}" IsEnabled="{Binding IsBusy}" IsVisible="{Binding IsBusy}"
+                           VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Color="IndianRed"/>
+
+    </Grid>
+
+</ContentPage>

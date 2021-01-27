@@ -1,0 +1,14 @@
+D:\New_workspace\Waga_Mobile\Waga_Mobile\bin\Debug\netstandard2.0\Waga_Mobile.deps.json
+D:\New_workspace\Waga_Mobile\Waga_Mobile\bin\Debug\netstandard2.0\Waga_Mobile.dll
+D:\New_workspace\Waga_Mobile\Waga_Mobile\bin\Debug\netstandard2.0\ref\Waga_Mobile.dll
+D:\New_workspace\Waga_Mobile\Waga_Mobile\bin\Debug\netstandard2.0\Waga_Mobile.pdb
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.AssemblyInfoInputs.cache
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.AssemblyInfo.cs
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.csproj.CoreCompileInputs.cache
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.dll
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\ref\Waga_Mobile.dll
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.pdb
+D:\New_workspace\Waga_Mobile\Waga_Mobile\obj\Debug\netstandard2.0\Waga_Mobile.csprojAssemblyReference.cache
